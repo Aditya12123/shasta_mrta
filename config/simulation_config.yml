@@ -1,0 +1,16 @@
+##---------------------------------------------------------------------##
+# Simulation parameters
+total_time: 300
+current_time: 0
+use_real_time: False
+time_step: 1.0
+headless: True
+dynamic: False
+
+##---------------------------------------------------------------------##
+experiment:
+  type: []
+  map_to_use: 'buffalo-medium'
+  record_video: False
+  log_states: False
+  detailed_model: True

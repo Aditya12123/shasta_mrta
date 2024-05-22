@@ -1,0 +1,29 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: 'SHaSTA: A Simulator for Human and Swarm Team Applications'
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - {}
+  - given-names: Hemanth
+    family-names: Manjunatha
+  - given-names: Prajit
+    family-names: krisshna kumar
+  - given-names: Joseph
+    family-names: Distefano
+  - given-names: Apurv
+    family-names: Jani
+  - given-names: Amir
+    family-names: Behjat
+  - given-names: Payam
+    family-names: Ghassemi
+  - given-names: Souma
+    family-names: Chowdhury
+  - given-names: Karthik
+    family-names: Dantu
+  - given-names: Ehsan
+    family-names: T. Esfahani
