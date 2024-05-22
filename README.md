@@ -54,6 +54,8 @@ Welcome to the SHaSTA! An open-source simulation platform to study human-swarm a
 
 2. Explore the simulation environment, adjust settings, and start flying!
 
+## MRTA Formulation
+The file MRTA_Experiment.py in experiments folder present the MRTA formulation 
 
 ## Contributing
 
