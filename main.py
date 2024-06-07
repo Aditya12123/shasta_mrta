@@ -7,8 +7,7 @@ from shasta.env import ShastaEnv
 from shasta.preprocessing.utils import extract_building_info
 
 from experiments.simple_experiment import SimpleExperiment
-# from experiments.MRTA_Experiment import mrta_experiment
-from experiments.mrta_setup_2 import mrta_experiment
+from experiments.MRTA_experiment import mrta_experiment
 from experiments.exp_get_dist import dist_Experiment
 from experiments.get_total_dist_point import distExperiment
 from experiments.complex_experiment import SearchingExperiment

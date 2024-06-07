@@ -75,16 +75,8 @@ class ShastaEnv(gym.Env):
         observation, info = self.experiment.get_observation(raw_data, self.core)
         done = self.experiment.get_done_status(observation, self.core)
         reward = self.experiment.compute_reward(observation, self.core)
-
-        # print(observation)
-        # if done:
-        #     print(reward)
-        #     input('done')
-        # input('performed a step...')
-        # if hasattr(self.experiment, 'get_truncated_status'):
         truncated = self.experiment.get_truncated_status(observation, self.core)
-        #     return observation, reward,truncated, done, info
-        # else:
+
         return observation, reward, done, truncated, info
             
 
